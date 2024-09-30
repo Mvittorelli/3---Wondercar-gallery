@@ -60,7 +60,23 @@ hr {
 
 img {
 	margin: 10px;
+	width: 35%;
+}
+
+img[alt="bus"] {
 	flex-grow: 1;
+}
+
+img[alt="destroy_car"] {
+	flex-grow: 2;
+}
+
+img[alt="old_car"] {
+	flex-grow: 1;
+}
+
+img[alt="huge_car"] {
+	flex-grow: 2;
 }
 
 .gallery {
