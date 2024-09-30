@@ -1,12 +1,14 @@
 * {
 	font-family: sans-serif;
 }
+
 .nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	margin-bottom: 2%;
 }
+
 button {
 	color: #fff;
 	outline: none;
@@ -16,30 +18,38 @@ button {
 	font-size: 24px;
 	transition: 0.3s;
 }
+
 .red {
 	background-color: #ff4e4e;
 	width: 630px;
 	height: 57px;
 }
+
 .red:hover {
 	background-color: #ff7979;
 }
+
 .purple,
 .purple2 {
 	background-color: #4e6bff;
 }
+
 .purple {
 	width: 357px;
 	height: 57px;
 }
-.purple:hover ,.purple2:hover {
+
+.purple:hover,
+.purple2:hover {
 	background-color: #7a90ff;
 }
-.purple2  {
-        width: 206px;
-        height: 59px;
-        margin-top: 1%;
+
+.purple2 {
+	width: 206px;
+	height: 59px;
+	margin-top: 1%;
 }
+
 hr {
 	height: 5px;
 	width: 85%;
@@ -47,10 +57,12 @@ hr {
 	border: none;
 	border-radius: 3px;
 }
+
 img {
 	margin: 10px;
 	flex-grow: 1;
 }
+
 .gallery {
 	justify-content: center;
 	display: flex;
